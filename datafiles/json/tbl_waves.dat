@@ -1,0 +1,1 @@
+{"wave 1":{"spawn_rate":3.0,"money_trigger":0.0},"wave 2":{"spawn_rate":2.5,"money_trigger":1000.0},"wave 3":{"spawn_rate":2.0,"money_trigger":2000.0},"wave 4":{"spawn_rate":1.5,"money_trigger":4000.0},"wave 5":{"spawn_rate":1.0,"money_trigger":10000.0}}
