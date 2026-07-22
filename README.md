@@ -13,11 +13,12 @@ You need Gamemaker LTS 2024+ for **Windows**.
 
 1. Clone the repository or download as ZIP and extract.
 2. Download [this spreadsheet](https://biyectivo.com/Spread/Spread%20Demo%20Game%20Data.xlsx), which contains the game data, and place it in `C:\Users\<your username>\AppData\Local\Spread_Demo` (create the `Spread_Demo` folder, since it probably won't exist).
-3. Open the Gamemaker project and run.
+3. Open the Gamemaker project and the Excel spreadsheet
+4. Run the game.
  
- ## The project
+## The project
  
- This is a Bloons-like tower defense stub game that uses **Spread** to read the game data from the aforementioned spreadsheet. In particular, it reads tables about:
+This is a Bloons-like tower defense stub game that uses **Spread** to read the game data from the aforementioned spreadsheet. In particular, it reads tables about:
 
 * Enemies
 * Towers
@@ -41,8 +42,11 @@ You can try modifying the Excel, saving it and then running the game again; or y
 * **P** reloads projectile data from the previously defined table
 * **W** reloads wave data from the previously defined table
 
-NOTE: you can pause/unpause the game with ESC.
+**Hover** over enemies or placed towers to see their name; **hold SHIFT** while doing so to see all their **stats**.
+You can **pause/unpause the game with ESC**.
+
+Note that not all game mechanics are actually implemented.
 
 ## How to test Spread in Production mode
 
-After running in Development mode, try changing to Production mode, deleting/moving the XLSX sheet and copying the JSON directory to your `datafiles` folder. Then, run in the target platform you like - no need to modify/rewrite/delete anything from your code!
+After running in Development mode, try changing to Production mode (and/or create a build), deleting/moving the XLSX sheet and copying the JSON directory to your `datafiles` folder. Then, run in the target platform you like - no need to modify/rewrite/delete anything from your code!
